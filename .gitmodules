@@ -4,6 +4,3 @@
 [submodule "node-request"]
 	path = node-request
 	url = https://github.com/jerrykuku/node-request/
-[submodule "luci-theme-argon"]
-	path = luci-theme-argon
-	url = https://github.com/jerrykuku/luci-theme-argon
