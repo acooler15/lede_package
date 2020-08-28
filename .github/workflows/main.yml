@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --global user.email "renzongjia@vip.qq.com"
           git config --global user.name "acooler15"
-          cd /github/workspace || exit 1
+          git submodule update --init
           git submodule update --remote
           [ -n "$(git status --untracked-files=no -s)" ] && git commit -am "auto update"
           git push --set-upstream origin master
